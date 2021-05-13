@@ -20,7 +20,7 @@ html {
     height: 50px;
 }
 .banner{
-    background-image: url(../img/fooFighter2.jpg);
+    background-image: url(../img/fooFighter1.jpg);
     background-size: cover;
     height: 500px; 
 }
@@ -30,27 +30,36 @@ html {
     font-size: 20px;
     text-align: center;
 }
-.integrantes {
-    background-color: #cc0000;
-    padding: 150px 50px;
+.integrantes{
+    background-color: black;
 }
-.integrantes h2, .biography h3, .albumh2, .videoContainer h3{
-    text-align: center;
-    font-size: 45px;
-    padding: 10px;
-    font-weight: bold;
+.integrantes h2{
+  color: white;
+  margin-top: 30px;
 }
-
 .integrantes .card img {
     width: 250px;
-    height: 250px;
+    height: 200px;
     border-radius: 10px;
-}
-.integrantes .card .card-body p {
-    text-align: justify;
 }
 .card-opacity {
     opacity: 0.7;
+}
+.albumContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.albumItem{
+    margin: 10px;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+}
+.albumItem h3{
+    height: 80px;
+    width: 300px;
+    margin: auto;
 }
 footer{
     background-color: #000000d8;
