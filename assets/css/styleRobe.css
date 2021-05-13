@@ -1,0 +1,150 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://robe.es/wp-content/uploads/2021/03/Discos-BG-1.jpg);
+    background-position: 50% 50%;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.navbar-nav {
+    text-align: right;
+}
+.container-fluid {
+    margin: 0 60px;
+}
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color:white;
+}
+.banner{
+    background-image: url(../img/Robe_banner.jpg);
+    background-size: cover;
+    height: 600px; 
+}
+.banner h1 {
+    text-align:right;
+    font-size: 70px;
+    color:white;
+    padding: 200px 50px;
+    font-weight: bold;
+}
+.biography{
+    margin-top: 4rem;
+    text-align: center;
+    color:white;    
+}
+.biographyh2{
+    margin: 2rem;
+}
+
+.biographyContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0rem 2rem 0rem 2rem;
+    justify-content: space-around;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+
+
+.biographyContainer img{
+    border: 1px solid white;
+    margin-right: 1rem;
+}
+
+
+.Musicosh2{
+    padding-top: 4rem;
+    padding-bottom: 0;
+    text-align: center;
+    color: white;
+}
+.cardGroup{
+    margin:0 0 0 0 ;
+    padding: 0 0 0 0 ;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.card {
+    border: 1px solid white;
+    width: 30%;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.card-title {
+    margin-bottom: .5rem;
+    text-align: center;
+    color:white;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    color: white;
+    text-align: justify;
+}
+
+.albumSection {
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    background-color: #00000000;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.albumContainer1{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5%;
+    justify-content: space-around;
+
+}
+.albumContainer1 img{
+    border: 1px solid white;
+    width: 40%;
+    height: 40%;
+}
+.albumContainer2{
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.albumTitle{
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    padding: 0;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    
+}
+.albumSpotify{
+    width: 50%;
+    height: 100%;
+    margin-bottom: 5%;
+}
+.albumSpotify iframe{
+    height: 100%;    
+    width: 100%;
+}
