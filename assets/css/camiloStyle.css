@@ -70,11 +70,45 @@ html, body{
     object-fit: contain;
 }
 
-footer{
+
+
+.contenedorPremios{
     background-color: #323232;
+    text-align: center;
+}
+
+.contenedorPremios h2{
+    font-size: 3em;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.premios{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    
+}
+
+.tarjetas{
+    margin: 0 70px;    
+}
+
+
+
+
+
+.tituloCard{
+    font-size: 20px;
+}
+
+footer{
+    background-color: #212529;
     color: white;
     text-align: center;
     padding: 20px 100px;
     font-size: 20px;
 }
+
 
