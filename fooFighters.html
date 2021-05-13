@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="./assets/css/fooFighters.css" />
+    <title>Foo Fighters</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-ligh bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./fooFighters.html">
+          <img
+            src="https://www.foofighters.com/wp-content/themes/theme/assets/img/logo.svg"
+            alt=""
+            width="30"
+            height="24"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#biography">Biografía</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#integrants">Integrantes</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#albumes"
+                >Álbumes</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#multimedia"
+                >Multimedia</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="banner"></div>
+    <div class="biography" id="biography">
+      <h2>Biografía</h2>
+      <p>
+        Es una banda de rock alternativo proveniente de Estados Unidos y que fue
+        creada en el año 1995 por el ex-batería de Nirvana, Dave Grohl. La banda
+        ha conseguido varios reconocimientos y han marcado muchisimos exitos por
+        todo el mundo, tales como This is a Call, Everlong, Monkey Wrench, Learn
+        to Fly, All My Life, Times Like These, Best Of You, DOA , No Way Back y
+        "The Pretender", que alcanzó el puesto número uno en los Hot Modern Rock
+        Tracks el sábado 1 de septiembre del 2007 y se mantuvo así durante
+        dieciocho semanas consecutivas.
+      </p>
+    </div>
+    <div id="integrants" class="integrantes text-center">
+        <h2>Integrantes</h2>
+        <div class="row justify-content-center">
+            <div id="ringoCant" class="card p-3 m-3 bg-secondary" style="width: 18rem;">
+              <img src="./assets/img/DaveGrohl.jpg" class="card-img-top" alt="Dave Grohl">
+              <div class="card-body">
+                  <h5 class="card-title text-warning">Dave Grohl</h5>
+                  <p class="card-text text-light text-justify">Voz, segunda guitarra, batería y piano ocasionalmente.</p>
+              </div>
+            </div>
+            <div id="jhonCant" class="card p-3 m-3 bg-secondary" style="width: 18rem;">
+                <img src="./assets/img/ChrisShiflett.jpg" class="card-img-top" alt="Chris Shiflett">
+                <div class="card-body">
+                  <h5 class="card-title text-warning">Chris Shiflett</h5>
+                  <p class="card-text text-light">Primera guitarra y voz </p>
+                </div>
+            </div>
+            <div id="paulCant" class="card p-3 m-3 bg-secondary" style="width: 18rem;">
+                <img src="./assets/img/NateMendel.jpg" class="card-img-top" alt="Nate Mendel">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Nate Mendel</h5>
+                    <p class="card-text text-light">Bajo.</p>
+                </div>
+            </div>
+            <div id="georgeCant" class="card p-3 m-3 bg-secondary" style="width: 18rem;">
+                <img src="./assets/img/TaylorHawkins.jpg" class="card-img-top" alt="Taylor Hawkins">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Taylor Hawkins</h5>
+                    <p class="card-text text-light">Batería, percusiones, guitarra ocasionalmente y voz.</p>
+                </div>
+            </div>
+            <div id="georgeCant" class="card p-3 m-3 bg-secondary" style="width: 18rem;">
+                <img src="./assets/img/PatSmear.jpg" class="card-img-top" alt="Pat Smear">
+                <div class="card-body">
+                    <h5 class="card-title text-warning">Pat Smear</h5>
+                    <p class="card-text text-light">Segunda guitarra, tercera guitarra en algunas ocasiones.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>&copy; Johan Stiven Quiroga - 2021</footer>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    font-size: 20px;
+}
+.navbar-nav {
+    text-align: right;
+}
+.container-fluid {
+    margin: 0 60px;
+}
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+.banner{
+    background-image: url(../img/fooFighter2.jpg);
+    background-size: cover;
+    height: 500px; 
+}
+.biography{
+    padding: 150px 50px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.integrantes {
+    background-color: #cc0000;
+    padding: 150px 50px;
+}
+.integrantes h2, .biography h3, .albumh2, .videoContainer h3{
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.integrantes .card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.integrantes .card .card-body p {
+    text-align: justify;
+}
+.card-opacity {
+    opacity: 0.7;
+}
+footer{
+    background-color: #000000d8;
+    color: white;
+    text-align: center;
+    padding: 20px 250px;
+    font-size: 20px;
+}
