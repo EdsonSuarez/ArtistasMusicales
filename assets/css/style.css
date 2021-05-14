@@ -5,8 +5,14 @@
 }
 html {
     scroll-behavior: smooth;
-    
 }
+.navbarContainer {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 .navbar-collapse {
     justify-content: flex-end;
 }
@@ -38,6 +44,7 @@ html {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2rem;
+    background-color:#212529;
 }
 
 .card{
